@@ -1,0 +1,20 @@
+micronaut:
+  server:
+    port: 8081
+  views:
+    thymeleaf:
+      enabled: true
+      template-mode: html
+    soy:
+      enabled: false
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+nuonuo.config:
+  server: 192.168.206.106:8017
+  enabled: true
+  app-id: nuonuo-yypt
+  app-random: P9VG6da4
+  instance-id: 1
